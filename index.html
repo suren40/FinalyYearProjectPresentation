@@ -1,49 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>PROPOSAL PRESENTATION</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>IOT BASED UNDERGROUND CABLE FAULT ANALYSIS</h3>
+          <br />
+          <br />
+          <br />
+          <br />
+          
+            <h4>PRESENTED BY:</h4>
+            <ol>
+              <div class="fragment">
+                <li>Dhan Bahadur Khadka(72BEL208)</li>
+                <li>Surendra Tamang(72BEL240)</li>
+                <li>Vijay sharma(72BEL245)</li>
+                <li>Yogesh karki(72BEL247)</li>
+              </div>
+            </ol>
+    
+        </section>
+        <section data-background-color="yellow"><h1>CONTENTS</h1>
+			<ol>
+				      <div class="fragment">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+						1.Introduction.<br>
+						2.Background of our project<br>
+						3.Objective <br>
+						4.Scope and Limitations <br>
+						5.Literature review <br>
+						6.Methodology<br>
+						7.Expected outcome <br>
+						8.Work plan <br>
+						9.Estimated Budget <br>
+						10.References <br>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+					  </div>
+						
+				</li>
+			</ol></section>
+			<section>
+					<h4>1.Introduction</h4>
+					The objective of this project is to determine the distance of underground  cable fault from the base station in km using an Arduino board.
+ Cables have some resistance,which varies with length
+ Any deviation in resistance value at that point indicates fault point
+ Which  represents the standard of distance from the base station. This
+valueis displayed by display unit
+for this, it is necessary to know where the cable is located and the route It takes.
+as locating the fault is complex job due to underground plants installed, it requires more knowledge experience too. 
+
+
+			</section>
+			<section data-background-image="./img/undergroundcable.png" data-background-size="500px">
+			</section>
+			<section data-background-image="./img/undergroundcables.png" data-background-size="500px">
+			</section>
+			<section>
+				This is section for Background of our project
+			</section>
+			<section>
+				
+			</section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+		  { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: "plugin/notes/notes.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
